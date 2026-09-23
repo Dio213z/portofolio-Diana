@@ -35,3 +35,6 @@ Kemampuan HTML/CSS, JavaScript, Python, Java 100% merupakan penilaian diri sesua
 Profil melayang, bola tiga dimensi berbasis CSS, cincin berputar, efek kemiringan ringan mengikuti mouse, teks berjalan, cahaya latar, animasi masuk saat scroll, indikator kemajuan scroll dan hover kartu.
 Tombol Jeda animasi menghentikan dekorasi CSS dan kemiringan profil; visualisasi pengurutan memiliki tombol jeda tersendiri. Reduced motion perangkat mematikan animasi dekoratif. Seluruh konten tetap terlihat tanpa animasi. Menu HP, tombol keyboard, dan Escape pada dialog didukung.
 Foto dan WhatsApp tetap melalui config.js. Font lokal dan lisensi di assets/fonts.
+
+## Koleksi pita coklat — revisi dekorasi
+Tiga SVG lokal: pita-satin.svg, pita-polkadot.svg (bintik putih), dan pita-caramel.svg (ekor panjang). Pita menghiasi profil, biodata, proyek, tombol menuju prestasi, halaman prestasi, dan footer. Geraknya bervariasi, mengikuti tombol jeda dan reduced motion. Semua dekorasi tidak menangkap klik dan disembunyikan dari pembaca layar.
