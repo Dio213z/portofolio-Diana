@@ -1,5 +1,5 @@
-# Diana Putri Fadilah — Jurnal Digital
-Portofolio HTML/CSS/JavaScript bertema coklat–cream, scrapbook dan meja belajar.
+# Diana Putri Fadilah — Digital Studio
+Portofolio HTML/CSS/JavaScript bertema studio digital coklat–cream. Layout editorial, panel profil berlapis, bagian kemampuan gelap, dan kartu proyek profesional.
 Identitas: X RPL 3, absen 3, SMK Krian 1 Sidoarjo.
 
 ## Membuka
@@ -24,12 +24,14 @@ Hasil: dist. Daftar gambar dibangkitkan otomatis saat build.
 3. Deploy ulang setelah menambah prestasi.
 Untuk hosting statis lain, unggah isi dist. GitHub Pages tanpa build bisa memakai galeri dengan nomor berurutan.
 
-## Interaksi
-- Teman Baca: hitung kata dan estimasi durasi, pilihan kecepatan 150/200/250 kata per menit. Maksimal 50.000 karakter.
-- Jembatan Ukuran: konversi panjang mm/cm/m/km, validasi angka 0 sampai 1 miliar, tampilan maksimal 12 digit signifikan (nilai amat kecil ditampilkan ilmiah).
-- Sketsa Kotak: kanvas 8×8, empat warna dan penghapus, tombol bersihkan. Tidak disimpan setelah ditutup.
-Ketiga proyek adalah demo yang dibuat untuk portofolio ini, bukan klaim karya lampau.
-Kemampuan HTML/CSS, JavaScript, Python, Java 100% ditampilkan sebagai penilaian diri sesuai formulir, bukan sertifikasi.
+## Interaksi — versi rombak total
+- Sort Motion: visualisasi bubble sort 8 angka. Putar/jeda, satu langkah, acak ulang; otomatis berhenti ketika selesai atau dialog ditutup.
+- Letter Shift: sandi Caesar A–Z, geser 0–25, sandikan/buka sandi, balikkan hasil. Huruf besar/kecil dipertahankan; karakter lain tidak berubah. Ini demo pendidikan, bukan keamanan data.
+- Date Distance: selisih dua tanggal kalender dengan dasar UTC agar tidak terpengaruh daylight saving; mendukung tahun kabisat dan tanggal terbalik. Tanggal yang sama = 0 hari, awal tidak dihitung.
+Ketiga proyek adalah demo baru untuk portofolio ini, bukan klaim karya lampau. Proyek Teman Baca, Jembatan Ukuran, dan Sketsa Kotak sudah diganti.
+Kemampuan HTML/CSS, JavaScript, Python, Java 100% merupakan penilaian diri sesuai formulir.
 
-Menu HP, tema terang/gelap yang disimpan di browser, galeri dengan perbesar gambar, tombol jeda animasi dan reduced motion disertakan. Uap cangkir, bintang, efek scroll, dan hover kartu memakai CSS/JS ringan.
-Font lokal memakai DejaVu; lisensi disertakan dalam assets/fonts.
+## Animasi dan aksesibilitas
+Profil melayang, bola tiga dimensi berbasis CSS, cincin berputar, efek kemiringan ringan mengikuti mouse, teks berjalan, cahaya latar, animasi masuk saat scroll, indikator kemajuan scroll dan hover kartu.
+Tombol Jeda animasi menghentikan dekorasi CSS dan kemiringan profil; visualisasi pengurutan memiliki tombol jeda tersendiri. Reduced motion perangkat mematikan animasi dekoratif. Seluruh konten tetap terlihat tanpa animasi. Menu HP, tombol keyboard, dan Escape pada dialog didukung.
+Foto dan WhatsApp tetap melalui config.js. Font lokal dan lisensi di assets/fonts.
